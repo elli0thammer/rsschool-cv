@@ -1,4 +1,4 @@
-###### Elizaveta Neupokoeva
+# Elizaveta Neupokoeva
 ---
 ### Junior Frontend Developer
 ---
