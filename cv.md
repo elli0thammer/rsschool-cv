@@ -20,7 +20,8 @@ I want to expand my knowledge and capabilities, so I'm taking a course from RS s
 3. Git, GitHub
 4. BEM
 5. LESS/SASS
-6. WebStorm
+6. Figma
+7. WebStorm
 
 ### Code example:
 ---
@@ -34,7 +35,7 @@ const stringToNumber = function (str) {
 
 ### Courses:
 ---
-1. HTML, CSS and JS on the [HTML Academy](https://htmlacademy.ru/profile/id2049649) (completed)
+1. HTML, CSS and JS on the HTML Academy (completed)
 2. RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ### Languages:
