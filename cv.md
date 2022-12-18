@@ -4,9 +4,8 @@
 ---
 ### Contact information:
 1. Location: Russia, Moscow
-2. Phone: +7 (900) 553-02-18
-3. Email: richardaddy333@gmail.com
-4. GitHub: [elli0thammer](https://github.com/elli0thammer)
+2. Email: neupokoeva.elisaveta@yandex.ru
+3. GitHub: [elli0thammer](https://github.com/elli0thammer)
 
 ### About Me
 ---
