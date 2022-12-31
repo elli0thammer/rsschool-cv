@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page__body">
+  <div class="page__body__inner">
+    <header class="main-header container-base">
+      <nav class="profile-nav">
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="nav__link link" href="#about-me">About myself</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#code">Code</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#courses">Courses</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#projects">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#contact">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-index">
+      <div class="main-index__inner">
+        <div class="main-index-left">
+          <section class="profile">
+            <figure class="profile__figure">
+              <img class="profile__image" src="img/photo.jpg" width="960" height="1280" alt="Photo">
+            </figure>
+
+            <h1 class="profile__title title-header">Elizaveta <br> Neupokoeva</h1>
+            <h2 class="profile__subtitle title-header">Junior Frontend Developer</h2>
+          </section>
+
+          <section class="contacts container" id="contact">
+            <h2 class="contacts_title title">Contact</h2>
+            <ul class="contacts__list list">
+              <li class="contacts__item">
+                <img class="contacts__icon" src="img/home.svg" width="30" height="30" alt="#">Russia, Moscow
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="img/litter.svg" width="30" height="30" alt="#">neupokoeva.elisaveta@yandex.ru
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link link" href="https://github.com/elli0thammer">
+                  <img class="contacts__icon" src="img/github.svg" width="30" height="30" alt="#">elli0thammer</a></li>
+            </ul>
+          </section>
+
+          <section class="languages" id="languages">
+            <h2 class="languages__title title">Languages</h2>
+            <ul class="languages__list list">
+              <li class="languages__item">Russian <span>- Native</span></li>
+              <li class="languages__item">English <span>- A2</span></li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="main-index-right">
+          <section class="about-me container" id="about-me">
+            <h2 class="about-me__title title">About myself</h2>
+            <p class="about-me__content">Hey! I'm a junior Frontend Developer, actively developing and self-educating in
+              the
+              field of IT.
+              I'm completing an intensive course in my profession at HTML Academy, having successfully completed three
+              training projects.
+              I want to expand my knowledge and capabilities, so I'm taking a course from RS school.</p>
+          </section>
+
+          <section class="skills container" id="skills">
+            <h2 class="skills__title title">Skills</h2>
+            <div class="skills-info">
+              <ul class="skills__list">
+                <li class="skills__item">HTML5</li>
+                <li class="skills__item">CSS3</li>
+                <li class="skills__item">JavaScript Basics</li>
+                <li class="skills__item">Git, GitHub</li>
+              </ul>
+              <ul class="skills__list">
+                <li class="skills__item">BEM</li>
+                <li class="skills__item">LESS/SASS</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">WebStorm</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="code-example container" id="code">
+            <h2 class="code-example__title title">Code example:</h2>
+            <code class="code-example__code">
+              const stringToNumber = function (str) {<br>
+              let num = Number(str)<br>
+              return num;<br>
+              };
+            </code>
+          </section>
+
+          <section class="courses container" id="courses">
+            <h2 class="courses__title title">Courses</h2>
+            <ul class="courses__list list">
+              <li class="courses__item">
+                HTML, CSS and JS on the HTML Academy (completed)
+              </li>
+              <li class="courses__item">
+                RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+              </li>
+            </ul>
+          </section>
+
+          <section class="projects" id="projects">
+            <h2 class="projects__title title">My projects</h2>
+            <ul class="projects__list list">
+              <li class="projects__item">
+                <a class="projects__link link" href="https://elli0thammer.github.io/device/" target="_blank">
+                  <img class="projects__img" src="img/device.jpg" width="1898" height="938"
+                       alt="Online technology store Device">
+                  <h3 class="projects__subtitle">Online-store Device</h3>
+                </a>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link link" href="https://github.com/elli0thammer/cat-energy" target="_blank">
+                  <img class="projects__img" src="img/cat-energy.jpg" width="1899" height="941"
+                       alt="Online-store cat food Cat-energy">
+                  <h3 class="projects__subtitle">Online-store Cat-energy</h3>
+                </a>
+              </li>
+
+              <li class="projects__item">
+                <a class="projects__link link" href="https://elli0thammer.github.io/kekstagram/" target="_blank">
+                  <img class="projects__img" src="img/kekstagram.jpg" width="1900" height="940"
+                       alt="#">
+                  <h3 class="projects__subtitle">Kekstagram</h3>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a class="footer__github-link link" href="https://github.com/elli0thammer" target="_blank">
+        Visit my GitHub
+        <img class="footer__img" src="img/github-footer.svg" width="30" height="30" alt="#">
+      </a>
+      <p class="footer__year">created in 2022</p>
+      <a class="footer__rsschool-link link" href="https://rs.school/js/" target="_blank">
+        <img class="footer__img" src="img/rs-school.svg" width="86" height="32" alt="RS School">
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
